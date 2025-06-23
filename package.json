@@ -1,0 +1,40 @@
+{
+  "name": "big-minds-informational-test",
+  "version": "1.0.0",
+  "description": "This repository contains the codes of Safi Greens informational website, which is a website that will guide the users of Safi Greens app to know more about the app, and reach out in case they have any inquiries.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS='--experimental-vm-modules' jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RigbeWeleslasie/big-minds-informational-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RigbeWeleslasie/big-minds-informational-test/issues"
+  },
+  "homepage": "https://github.com/RigbeWeleslasie/big-minds-informational-test#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "babel-jest": "^30.0.2",
+    "fast-text-encoding": "^1.0.6",
+    "jest": "^30.0.2",
+    "jest-environment-jsdom": "^30.0.2",
+    "jsdom": "^26.1.0",
+    "text-encoding": "^0.7.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    },
+    "setupFiles": [
+      "<rootDir>/jest.setup.js"
+    ]
+  }
+}

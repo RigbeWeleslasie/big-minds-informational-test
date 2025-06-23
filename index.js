@@ -45,4 +45,4 @@ document.addEventListener('click', function(event) {
         nav.classList.remove('show');
         hamburger.innerHTML = '&#9776;';
     }
-});
+});  
